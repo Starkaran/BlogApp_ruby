@@ -15,6 +15,9 @@ gem "sqlite3", "~> 1.4"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
+#password gem
+gem 'bcrypt', '~> 3.1.13'
+
 #bootstrap gems
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
@@ -35,6 +38,10 @@ gem 'nokogiri','~>1.6','>= 1.6.8'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
+
+#pagenation gems
+gem 'will_paginate','3.3.1'
+gem 'bootstrap-will_paginate','1.0.0'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
