@@ -142,6 +142,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.3-x86_64-linux)
       racc (~> 1.4)
+    pg (1.2.3)
     public_suffix (4.0.6)
     puma (5.6.4)
       nio4r (~> 2.0)
@@ -242,6 +243,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   nokogiri (~> 1.6, >= 1.6.8)
+  pg (= 1.2.3)
   puma (~> 5.0)
   rails (~> 7.0.2, >= 7.0.2.3)
   sassc-rails (>= 2.1.0)
