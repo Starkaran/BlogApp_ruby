@@ -1,4 +1,5 @@
 <%= form_for(:session, :html => {class: "form-horizontal", role: "form"}, url: login_path) do |f| %>
+<h1 align="center">Log-In </h1>
  <div class="form-group">
   <div class="control-label col-sm-2">
    <%= f.label :email %>
@@ -12,12 +13,12 @@
    <%= f.label :password %>
   </div>
   <div class="col-sm-8">
-   <%= f.password_field :password, class: "form-control", autocomplete: "off" %>
+   <%= f.password_field :password, class: "form-control", autocomplete: "off" ,placeholder: "Password"%>
   </div>
  </div>  
  <div class="form-group">
   <div class="col-sm-offset-2 col-sm-10">
-   <%= f.submit "Log in", class: 'btn btn-primary btn-large' %>
+   <%= link_to "Log in",articles_path, class: 'btn btn-primary btn-large' %>
   </div>
  </div>
  <% end %>

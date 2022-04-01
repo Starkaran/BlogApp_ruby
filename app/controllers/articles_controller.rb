@@ -28,7 +28,7 @@ def edit
 end
 def index
   # @article = Article.all
-  @articles = Article.paginate(page: params[:page], :per_page => 5)
+  @articles = Article.paginate(page: params[:page], :per_page => 1)
 end
 def destroy
   @article.destroy
